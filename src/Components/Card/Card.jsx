@@ -1,12 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Card.css';
+import Cart from '../Cart/Cart';
 
 const Card = (props) => {
-    const {id, name, price, picture} = props.product;
+    const {handleCart, product} = props;
+    const { name, price, picture} = props.product;
     return (
-        <div className="col-lg-4 col-md-6 col-12 g-3">
+        <div className="col-lg-4 col-md-6 col-12 g-4">
            <div class=" g-4">
                <div class="col">
                    <div class="card h-100">
@@ -15,10 +17,9 @@ const Card = (props) => {
                        </div>
                         <div className="ms-3">
                           <h5>Name: {name}</h5>
-                           <p>Id: {id}</p>
                            <p>Price: {price}</p>
                         </div>
-                        <button className="border-0 bg-secondary"><span className='text-white'>Add to Cart</span><FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon></button>
+                        <button onClick={()=>handleCart(product)} className="border-0 bg-secondary"><span className='text-white me-3'>Add to Cart</span><FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
                     </div>
                 </div>
             </div>
