@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Card.css';
 
@@ -16,7 +18,7 @@ const Card = (props) => {
                            <p>Id: {id}</p>
                            <p>Price: {price}</p>
                         </div>
-                        <button className="border-0 bg-secondary"><span className='text-white'>Add to Cart</span></button>
+                        <button className="border-0 bg-secondary"><span className='text-white'>Add to Cart</span><FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon></button>
                     </div>
                 </div>
             </div>
