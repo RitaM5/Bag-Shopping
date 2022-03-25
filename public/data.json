@@ -1,0 +1,56 @@
+[
+    {
+      "id": "101",
+      "price": "$1970",
+      "picture": "https://media.istockphoto.com/photos/yellow-open-backpack-picture-id1141208525?k=20&m=1141208525&s=612x612&w=0&h=cOu7gNKtDi4FuGAzSDvn-Bm9PbB8tvWVgi7xY9lhcRw=",
+      "name": "Marylou Boyd"
+    },
+    {
+      "id": "102",
+      "price": "$2200",
+      "picture": "https://thumbs.dreamstime.com/b/school-bag-clipping-path-isolated-white-43624262.jpg",
+      "name": "Sarah York"
+    },
+    {
+      "id": "103",
+      "price": "$1650",
+      "picture": "https://media.istockphoto.com/photos/red-backpack-standing-on-white-background-picture-id184797262?k=20&m=184797262&s=612x612&w=0&h=o3jcLwH3JMq2aa7ouf4r8v87DApz5qnYQNEecGv7nKA=",
+      "name": "Carmella Herman"
+    },
+    {
+      "id": "104",
+      "price": "$2130",
+      "picture": "https://images-eu.ssl-images-amazon.com/images/I/31ch8r3QbSL._AC._SR360,460.jpg",
+      "name": "Lynne Butler"
+    },
+    {
+      "id": "105",
+      "price": "$1750",
+      "picture": "https://www.google.com/search?q=bag+picture&tbm=isch&source=iu&ictx=1&vet=1&fir=ubHR7Lc6XMWCoM%252C6dH0J3XDXyw2GM%252C_%253Bg3Z6s_BQXhVWgM%252ClaszDJwkiQqyiM%252C_%253BtL3W29J87G5ddM%252Ct8kYv3w2pGx2LM%252C_%253BXq0zZ0dzJ5gMIM%252C6dH0J3XDXyw2GM%252C_%253BWt8BbbwuObHfLM%252C6dH0J3XDXyw2GM%252C_%253BcLl3ek8l7MylKM%252C2shzj54f3EnqEM%252C_%253Bud5omao9vrjEwM%252CDMqp03O4t6tgCM%252C_%253BvkAWC4yzhmKjmM%252ClaszDJwkiQqyiM%252C_%253BDlKoU0ju7BgD9M%252C96_GknVH_hC7aM%252C_%253Bk_iY7NZsTXiRAM%252C2CcnB94vMJEQnM%252C_%253BcCHSTcI9vjjfaM%252ClaszDJwkiQqyiM%252C_%253B1sAFdDlnwxQoxM%252CDMqp03O4t6tgCM%252C_%253Bh_sJYJgumfGORM%252CadPEP6mshYmAyM%252C_%253BYtCZEvsrfot_YM%252CSc9y5-zaEJnGaM%252C_%253B_NqKn34XIsYrlM%252C6dH0J3XDXyw2GM%252C_&usg=AI4_-kRqSyF8WpIcjdkURcmCAwmB4kG71Q&sa=X&ved=2ahUKEwiK7Zm-4-H2AhWfRmwGHSYfB4UQ9QF6BAgJEAE#imgrc=3cxZTQF8uDk8xM",
+      "name": "Carney Moreno"
+    },
+    {
+      "id": "106",
+      "price": "$1800",
+      "picture": "https://5.imimg.com/data5/CC/JL/MY-29211282/designer-school-bag-500x500.jpg",
+      "name": "Guadalupe Winters"
+    },
+    {
+      "id": "107",
+      "price": "$2200",
+      "picture": "https://www.maxbagworld.com/img/bag/schoolbag4651.png",
+      "name": "Susan Osborn"
+    },
+    {
+        "id": "108",
+        "price": "$2750",
+        "picture": "https://m.media-amazon.com/images/I/81IiFRUxeWL._UY550_.jpg",
+        "name": "Susan Osborn"
+      },
+      {
+        "id": "109",
+        "price": "$3000",
+        "picture": "https://static-01.daraz.com.bd/p/mdc/71a6e3981460ca09996fd445fca2f482.jpg",
+        "name": "blue bag"
+      }
+  ]
