@@ -9,13 +9,13 @@ const Card = (props) => {
     return (
         <div className="col-lg-6 col-xl-4 col-md-6 col-12 g-4">
                <div className="col h-100">
-                  <div className="card">
-                   <img className='card-image mx-auto' src={picture} alt=""/>
+                  <div className="card Larger shadow">
+                   <img className='card-image mx-auto py-2 rounded' src={picture} alt=""/>
                       <div className="ms-3">
                         <h5>Name: {name}</h5>
                            <p>Price: {price}</p>
                        </div>
-                        <button onClick={()=>addToCart(product)} className="border-0 bg-secondary"><span className='text-white me-3'>Add to Cart</span><FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
+                       <button onClick={()=>addToCart(product)} className="border-0 bg-dark"><span className='text-white me-3'>Add to Cart</span><FontAwesomeIcon className="text-white" icon={faShoppingCart}></FontAwesomeIcon></button>
                   </div>
               </div>    
         </div>
