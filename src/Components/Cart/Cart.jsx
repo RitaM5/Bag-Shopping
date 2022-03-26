@@ -4,9 +4,6 @@ import DisplayItem from '../Display/DisplayItem';
 import './Cart.css';
 const Cart = (props) => {
     const {cart, removeCartItem, chooseRandomBag, choosenBag} = props;
-    //console.log(chooseRandomBag);
-   //{choosenBag && `Choosen bag is : ${choosenBag.name}`}
-
     return (
         <div>
             <h3 className='text-center p-3 fs-3 headings'>Selected Products</h3>

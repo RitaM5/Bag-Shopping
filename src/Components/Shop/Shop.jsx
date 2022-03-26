@@ -6,7 +6,6 @@ import './Shop.css';
 const Shop = () => {
      const [products, setShops] = useState([]);
      const [cart, setCart] = useState([]);
-
      const [choosenBag, setChoosenBag] = useState(null);
      console.log(choosenBag);
      useEffect(() => {
@@ -26,9 +25,10 @@ const Shop = () => {
        const selectedBag = (cart[chooseItem]);
        setChoosenBag(selectedBag);
    }
-
+  //remove all cart item
      const removeCartItem = () =>{
         setCart([]);
+        setChoosenBag(null);
     }
 
     return (
