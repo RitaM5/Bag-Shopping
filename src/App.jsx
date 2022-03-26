@@ -6,8 +6,9 @@ function App() {
   return (
     <div className="container">
        <Shop></Shop>
+       
     </div>
-  )
+  );
 }
 
 export default App
